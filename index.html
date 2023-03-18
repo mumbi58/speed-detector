@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>speed detector</title>
+    <!--linking css file to html-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<!-- main html -->
+	<div class="container">
+	<h1>my speed detector</h1>
+
+	<div class="first">
+		<div class="second">
+		<!--taking car speed details-->
+		<div class="third">
+			<input
+			type="number"
+			class="form-control"
+			placeholder="key in your car speed"
+			id="SPEED"
+			/>
+		</div>
+		
+		<div>
+			<input
+			type="button"
+			value="submit details"
+			class="form-button"
+			onclick="calculate()"
+			/>
+		</div>
+		</div>
+	</div>
+	<div class="form-group showdata">
+        <p id="data"></p>
+      </div>
+	</div>
+	<!--javascript link-->
+	<script src="index.js"></script>
+</body>
+</html>
