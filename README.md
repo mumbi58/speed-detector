@@ -32,7 +32,7 @@ To install all requirements
 Then run server with the above command
 *****
 ### live link
-https://helpful-cheesecake-d76534.netlify.app/
+https://whimsical-custard-1e2003.netlify.app
 ## dependencies
 - font awesome icons
 ## Technologies Used
